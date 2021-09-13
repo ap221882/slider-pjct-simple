@@ -3,6 +3,7 @@ import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
 import { FaQuoteRight } from "react-icons/fa";
 import data from "./data";
 function App() {
+  // eslint-disable-next-line
   const [people, setpeople] = useState(data);
   const [index, setindex] = useState(0);
 
